@@ -4,6 +4,40 @@
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  // padding-top: 50px;
   padding-bottom: 20px;
+}
+
+.jumbotron {
+	background-color: red !important;
+}
+
+span, .header-links a {
+	font-family: 'Helvetica Neue';
+	text-decoration: underline !important;
+	color: #000;
+	font-size: 4em;
+	font-weight: 600;
+	line-height: 1.1em;
+	&:hover {
+		color: #fff;
+	}
+
+}
+
+span {
+	color: white;
+	text-decoration: none !important;
+}
+
+#top-text,
+#gallery-header {
+	font-family: 'Helvetica Neue';
+	font-weight: 600;
+	font-size: 2em;
+	padding: 5px 0 0 0; 
+}
+
+#gallery-header {
+	padding-top: 0;
 }
