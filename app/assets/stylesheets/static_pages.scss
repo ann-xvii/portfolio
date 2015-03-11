@@ -41,3 +41,35 @@ span {
 #gallery-header {
 	padding-top: 0;
 }
+
+@media screen and (max-width: 600px) {
+	span, .header-links a {
+		font-family: 'Helvetica Neue';
+		text-decoration: underline !important;
+		color: #000;
+		font-size: 1.3em;
+		font-weight: 600;
+		line-height: 1.1em;
+		&:hover {
+			color: #fff;
+		}
+
+	}
+
+	span {
+		color: white;
+		text-decoration: none !important;
+	}
+
+	#top-text,
+	#gallery-header {
+		font-family: 'Helvetica Neue';
+		font-weight: 600;
+		font-size: 1.5em;
+		padding: 5px 0 0 0; 
+	}
+
+	#gallery-header {
+		padding-top: 0;
+	}
+}
