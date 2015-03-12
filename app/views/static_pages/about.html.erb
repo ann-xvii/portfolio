@@ -1,2 +1,18 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<div class="container col-md-12 col-sm-12 col-xs-12" id="bio">
+	<h1 style="text-align: center">Welcome!</h1>
+
+	<div class="row" id="bio-body">
+		
+		<div class="col-md-6 col-md-offset-3 col-sm-5 col-xs-12">
+			<p class="bio-para">
+				More detail coming soon! Basically, I am a full stack web developer with a background in <%= link_to "Radiation Biology [MSc(Oxon), 2010]", "http://www.ox.ac.uk/" %> and Medical Image Computing.  I'm also a visual artist. I got interested in imaging science after spending a semester at <%= link_to "Rhode Island School of Design", "http://www.risd.edu/" %> my junior year of college <%= link_to "(Brown University)", "http://www.brown.edu/" %>.  I decided that I still loved art, but I wanted to approach it from a more technical, engineering angle. I was the strategist for a startup called Y-Jet from 2013-2015.  While looking into how to improve our user experience and website, I realized that I'd found a new passion!  I taught myself as much as I could, then in November 2014, I decided to take the plunge and enroll in the Web Development Immersive at General Assembly. <span class="home-link"><%= link_to "Home", root_path %></span>
+			</p>
+			<br/>
+			<%= link_to image_tag("picture5.jpg", class: "image-tag"), root_path %>
+			<br/>
+			
+		</div>
+		
+	</div>
+</div>
+
