@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'static_pages/about' => 'static_pages#about', as: :about
   get 'static_pages/book' => 'static_pages#book', as: :booklist
+  get 'static_pages/portfolio' => 'static_pages#portfolio', as: :portfolio
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

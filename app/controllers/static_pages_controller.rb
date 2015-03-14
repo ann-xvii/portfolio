@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def book
   end
+
+  def portfolio
+  end
 end
