@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-	background-color: red !important;
+	background-color: #fff !important;
 }
 
 span, .header-links a {
@@ -20,13 +20,13 @@ span, .header-links a {
 	font-weight: 600;
 	line-height: 1.1em;
 	&:hover {
-		color: #fff;
+		color: #ff0000;
 	}
 
 }
 
 span {
-	color: white;
+	color: red;
 	text-decoration: none !important;
 }
 
@@ -51,7 +51,7 @@ span {
 		font-weight: 600;
 		line-height: 1.1em;
 		&:hover {
-			color: #fff;
+			color: #ff0000;
 		}
 
 	}
