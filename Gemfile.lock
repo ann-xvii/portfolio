@@ -93,6 +93,10 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
+    font-awesome-rails (4.3.0.0)
+      railties (>= 3.2, < 5.0)
+    font-awesome-sass (4.3.2)
+      sass (~> 3.2)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     hike (1.2.3)
@@ -245,6 +249,8 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.1.0)
   factory_girl_rails
+  font-awesome-rails
+  font-awesome-sass
   jbuilder (~> 2.0)
   jquery-rails
   mongoid (~> 4.0.0)
